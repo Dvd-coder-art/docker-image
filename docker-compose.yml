@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  toshiro-site:
+    build: .
+    container_name: toshiro
+    ports:
+      - "8080:80"
+
